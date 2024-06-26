@@ -4,10 +4,10 @@ The Observer Design Pattern is a behavioral design pattern that defines a one-to
 # Intent
 The Observer pattern is to notify the interested observers about some change occurred. We can add more observers in runtime as well as remove them.
 
-## Components of Observer Design Pattern
+## Structure
+For a weather monitoring system, various displays (like a current conditions display or a forecast display) can act as observers to a weather data subject. When the weather data changes, all the displays update their information.
 
-                       ![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/165013da-fa2f-451f-b108-abf45c31ca4c)
-
+![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/51b21bf0-8d1b-4cf7-be41-f84eeac686cb)
 
 ### 1. Subject: 
 - The “Subject" interface outlines the operations a subject (like “WeatherStation") should support.
@@ -15,11 +15,21 @@ The Observer pattern is to notify the interested observers about some change occ
 - "notifyObservers" is for informing observers about changes.
   
 ### 2. Observer:
+- The “Observer" interface defines a contract for objects that want to be notified about changes in the subject (“WeatherStation" in this case).
+- It includes a method “update" that concrete observers must implement to receive and handle updates.
+  
 ### 3. ConcreteSubject: 
+- "WeatherStation" is the concrete subject implementing the “Subject" interface.
+- It maintains a list of observers (“observers") and provides methods to manage this list.
+- "notifyObservers" iterates through the observers and calls their “update" method, passing the current weather.
+- "setWeather" method updates the weather and notifies observers of the change.
+- 
 ### 4. ConcreteObserver:
+- "TvRoom,WallTV" is a concrete observer implementing the “Observer" interface.
+- It has a private field weather to store the latest weather.
+- The “update" method sets the new weather and calls the “display" method.
+- "display" prints the updated weather to the console.
 
-## Structure
-For a weather monitoring system, various displays (like a current conditions display or a forecast display) can act as observers to a weather data subject. When the weather data changes, all the displays update their information.
 
 
 ## UML Class Diagram
