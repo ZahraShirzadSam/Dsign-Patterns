@@ -24,5 +24,5 @@ For a weather monitoring system, various displays (like a current conditions dis
 ![Se](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/938a9c29-a179-4f1f-bd9f-f09905f668a9)
 
 ## References
-HEX eBook: Dive Into Design Patterns.
-HEX webSite: https://refactoring.guru
+* eBook: Dive Into Design Patterns.
+* webSite: https://refactoring.guru
