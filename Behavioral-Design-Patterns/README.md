@@ -7,10 +7,10 @@ The Observer pattern is to notify the interested observers about some change occ
 ## Components of Observer Design Pattern
 ![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/165013da-fa2f-451f-b108-abf45c31ca4c)
 
-1. Subject
-2. Observer
-3. ConcreteSubject
-4. ConcreteObserver
+**1. Subject: **
+**2. Observer: **
+**3. ConcreteSubject: **
+**4. ConcreteObserver: **
 
 ## Structure
 For a weather monitoring system, various displays (like a current conditions display or a forecast display) can act as observers to a weather data subject. When the weather data changes, all the displays update their information.
@@ -24,5 +24,5 @@ For a weather monitoring system, various displays (like a current conditions dis
 ![Se](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/938a9c29-a179-4f1f-bd9f-f09905f668a9)
 
 ## References
-* eBook: Dive Into Design Patterns.
-* webSite: https://refactoring.guru
+** * eBook:** Dive Into Design Patterns.
+** * webSite:** https://refactoring.guru
