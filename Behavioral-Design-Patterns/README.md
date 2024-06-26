@@ -23,7 +23,7 @@ For a weather monitoring system, various displays (like a current conditions dis
 - It maintains a list of observers (“observers") and provides methods to manage this list.
 - "notifyObservers" iterates through the observers and calls their “update" method, passing the current weather.
 - "setWeather" method updates the weather and notifies observers of the change.
-- 
+
 ### 4. ConcreteObserver:
 - "TvRoom,WallTV" is a concrete observer implementing the “Observer" interface.
 - It has a private field weather to store the latest weather.
