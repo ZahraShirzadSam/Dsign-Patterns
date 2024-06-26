@@ -1,8 +1,9 @@
 # Observer Pattern
-
+Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
 ## Intent
-Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+The Observer pattern is to notify the interested observers about some change occurred. We can add more observers in runtime as well as remove them.
+
 
 ## Structure
 For a weather monitoring system, various displays (like a current conditions display or a forecast display) can act as observers to a weather data subject. When the weather data changes, all the displays update their information.
