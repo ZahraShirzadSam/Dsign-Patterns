@@ -4,7 +4,7 @@ The Observer Design Pattern is a behavioral design pattern that defines a one-to
 # Intent
 The Observer pattern is to notify the interested observers about some change occurred. We can add more observers in runtime as well as remove them.
 
-## Structure
+# Structure
 For a weather monitoring system, various displays (like a current conditions display or a forecast display) can act as observers to a weather data subject. When the weather data changes, all the displays update their information.
 
 ![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/51b21bf0-8d1b-4cf7-be41-f84eeac686cb)
