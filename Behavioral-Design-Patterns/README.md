@@ -5,7 +5,9 @@ The Observer Design Pattern is a behavioral design pattern that defines a one-to
 The Observer pattern is to notify the interested observers about some change occurred. We can add more observers in runtime as well as remove them.
 
 ## Components of Observer Design Pattern
-![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/165013da-fa2f-451f-b108-abf45c31ca4c)
+<p align="center" width="100%">
+    <img width="33%" src="![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/165013da-fa2f-451f-b108-abf45c31ca4c)">
+</p>
 
 1. Subject: 
 2. Observer:
