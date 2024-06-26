@@ -1,8 +1,18 @@
 # Observer Pattern
-Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+The Observer Design Pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically.
 
-## Intent
+# Intent
+Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 The Observer pattern is to notify the interested observers about some change occurred. We can add more observers in runtime as well as remove them.
+
+## Components of Observer Design Pattern
+![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/165013da-fa2f-451f-b108-abf45c31ca4c)
+
+1. Subject
+2. Observer
+3. ConcreteSubject
+4. ConcreteObserver
+
 
 
 ## Structure
