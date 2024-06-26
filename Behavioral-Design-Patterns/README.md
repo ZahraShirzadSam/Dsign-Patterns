@@ -1,4 +1,5 @@
-# Observer Pattern
+# Observer Pattern ![observer-mini](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/2bb3fc28-2237-429d-8824-c32bd1cb6a9b)
+
 The Observer Design Pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically.
 
 # Intent
