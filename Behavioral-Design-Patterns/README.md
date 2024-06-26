@@ -2,7 +2,6 @@
 The Observer Design Pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically.
 
 # Intent
-Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 The Observer pattern is to notify the interested observers about some change occurred. We can add more observers in runtime as well as remove them.
 
 ## Components of Observer Design Pattern
