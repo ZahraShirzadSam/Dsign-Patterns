@@ -6,9 +6,10 @@ The Observer pattern is to notify the interested observers about some change occ
 
 ## Components of Observer Design Pattern
 <p align="center" width="100%">
-    <img width="33%" src="![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/165013da-fa2f-451f-b108-abf45c31ca4c)">
+    ![OBS](https://github.com/ZaraSam/Dsign-Patterns/assets/136806163/165013da-fa2f-451f-b108-abf45c31ca4c)
 </p>
 
+- 
 1. Subject: 
 2. Observer:
 3. ConcreteSubject: 
